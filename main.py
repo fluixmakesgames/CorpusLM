@@ -1,5 +1,4 @@
 #Libs
-import random
 from temps import *
 from generation import *
 

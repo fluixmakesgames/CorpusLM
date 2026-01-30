@@ -1,3 +1,6 @@
+import random
+from temps import *
+
 subject = ""
 
 def get_last_word(tokens):
@@ -34,7 +37,6 @@ def generate_next_word(current_word,last_word):
         else:
             sub_options[i] = x
     
-    if debug: print(sub_options, ":", subject, ":", current_word)
     word = random.choices(list(sub_options.keys()), [val[0] for val in sub_options.values()],k=1)[0]
     if current_word in subjects:
         subject = current_word
