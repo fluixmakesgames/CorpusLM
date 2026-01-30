@@ -1,6 +1,8 @@
 # CorpusLM (V 0.1.0)
 The poor mans LLM. (A tiny, language model similar to a Markov chain–based text generator.)
 
+*(Disclaimer: If you are looking for a proper NN or LM/LLM this isn't it)
+
 CorpusLM is a tiny, corpus-driven text generator built from scratch in Python.  
 It is a "tiny language model" that can run on low specification devices (Eg. *MOST* Computer's, *SOME* Microcontrollers, *MOST* Raspberry Pi's),
 it can most likely run if the device can run Python.
