@@ -39,6 +39,3 @@ def generate_next_word(current_word,last_word):
     if current_word in subjects:
         subject = current_word
     return word
-             return returnstr
-        returnstr += " " + i
-    return returnstr

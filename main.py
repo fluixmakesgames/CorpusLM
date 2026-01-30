@@ -21,6 +21,10 @@ def tokens_to_word(tokens):
             continue
         if i == None:
              returnstr += "."
+             return returnstr
+        returnstr += " " + i
+    return returnstr
+
 
 words = input(">>").split("/")
 current_token = words[len(words)-1]
