@@ -1,3 +1,4 @@
+subject = ""
 
 def get_last_word(tokens):
     if len(tokens) < 2:
