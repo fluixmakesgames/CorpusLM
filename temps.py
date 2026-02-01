@@ -19,8 +19,9 @@ temps = {
         None:[0.2],
         },
     "ate":{
-        "kibble":[1,"cat"],
-        "a burger":[1,"man"],
+        "kibble":[0.5,"cat"],
+        "burgers":[0.5,"man"],
+        "happily":[0.5],
         },
     "did":{
         "nothing":[0.2,],
